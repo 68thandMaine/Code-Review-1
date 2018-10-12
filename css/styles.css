@@ -1,3 +1,27 @@
 .col-md-1 {
   float: left;
+  display:block;
+  position:relative;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.col-md-1:before{
+  display:block;
+    content:'';
+    position:absolute;
+    width:200px;
+    height:200px;
+    -moz-box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
+    -webkit-box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
+    box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
+}
+
+.col-md-11{
+  border: solid;
+  height:200px;
+  margin-top: 0px;
 }
