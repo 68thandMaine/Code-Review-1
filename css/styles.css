@@ -19,7 +19,7 @@
 
 .head-container img {
   background-size: cover;
-  position: fixed;
+  position: absolute;
   top:0;
   left:25px;
   height:200px;
@@ -30,7 +30,7 @@
   left: 0px;
 }
 #head_img{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 10%;
   height: 200px;
@@ -40,15 +40,12 @@
 #headtext {
   text-align: right;
   border: solid red;
-  Position: fixed;
+  Position: absolute;
   color: white;
   Top:5%;
   right:25%;
 }
 
-.middle {
-  overflow: scroll;
-  float: left;
-  
-
+.container-fluid{
+  float:left;
 }
