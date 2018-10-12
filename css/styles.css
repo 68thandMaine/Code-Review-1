@@ -1,37 +1,49 @@
 .col-md-1 {
+  border: solid red;
   float: left;
   display:block;
-  position:absolute;
+  position:fixed;
+}
+#h1 {
+  height: 200px;
 }
 
-
 .col-md-1:before{
+
   z-index: 3;
   display:block;
   content:'';
-  position:absolute;
+  position:fixed;
 }
 
 
-.container img {
+.head-container img {
+  border: solid red;
   position: fixed;
   top:25px;
   left:25px;
   height:200px;
 }
 #head_img{
-  position: absolute;
-  padding-top: 5%;
-  padding-left: 5%;
+  position: fixed;
+  top: 5%;
+  left: 5%;
   height: 180px;
   width: 180px;
 }
 
 #headtext {
-
-
+  text-align: right;
+  border: solid red;
+  Position: fixed;
+  color: white;
+  Top:5%;
+  right:25%;
 }
 
 .middle {
+  border: solid;
+  float:left;
+  width: 50%;
 
 }
