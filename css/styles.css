@@ -1,27 +1,37 @@
 .col-md-1 {
   float: left;
   display:block;
-  position:relative;
+  position:absolute;
 }
 
-.img {
-  width: 200px;
-  height: 200px;
-}
 
 .col-md-1:before{
+  z-index: 3;
   display:block;
-    content:'';
-    position:absolute;
-    width:200px;
-    height:200px;
-    -moz-box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
-    -webkit-box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
-    box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
+  content:'';
+  position:absolute;
 }
 
-.col-md-11{
-  border: solid;
+
+.container img {
+  position: fixed;
+  top:25px;
+  left:25px;
   height:200px;
-  margin-top: 0px;
+}
+#head_img{
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 5%;
+  height: 180px;
+  width: 180px;
+}
+
+#headtext {
+
+
+}
+
+.middle {
+
 }
